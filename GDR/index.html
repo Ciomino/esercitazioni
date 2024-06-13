@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDR Testuale</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>GDR</h1><br>
+    <div id="output"><strong>Benvenuto! scegli il personaggio e premi il pulsante "Inizia" per iniziare l'avventura.</strong></div>
+    <div id="container">
+        <div id="imgContainer">
+            <div id="containerBarbaro">
+                <img class="imgPersonaggio" src="barbaro.gif" alt="Personaggio">
+                <ol>
+                    <li><button id="btBarbaro"><strong>Barbaro</strong></button></li>
+                    <li>Abilita':</li>
+                    <li>Lancio dell'ascia</li>
+                    <li>Carica</li>
+                </ol>
+            </div>
+            <div id="containerStregone">
+                <img class="imgPersonaggio" src="stregone.gif" alt="Personaggio">
+                <ol>
+                    <li><button id="btStregone"><strong>Stregone</strong></button></li>
+                    <li>Abilita':</li>
+                    <li>Palla di fuoco</li>
+                    <li>Pioggia di ghiaccio</li>
+                </ol>
+            </div>
+            <div id="containerArciere">
+                <img class="imgPersonaggio" id="arciere"  src="arciere.gif" alt="Personaggio">
+                <ol>
+                    <li><button id="btArciere"><strong>Arciere</strong></button></li>
+                    <li>Abilita':</li>
+                    <li>Triplo colpo</li>
+                    <li>Tiro di precisione</li>
+                </ol>
+            </div>
+        </div>
+        <div id="start">
+            
+            <button id="startButton">Inizia</button>
+        </div>
+        <div id="containerInputUtente">
+            <div id="textContainer">
+                <span id="text"></span>
+            </div>
+        </div>
+        <div id="labelInput" class="nascosto">
+            <input type="text" id="abilita">
+        </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
